@@ -103,6 +103,4 @@ contacts.txt
 
 The program will ask you to enter the file name when it starts.
 
----ense
-
-This project is for educational purposes.
+---end
