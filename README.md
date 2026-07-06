@@ -1,15 +1,108 @@
-# Project-Phone-Contact-Management-Application
-Phone Contact Management Application
+# 📱 Contact Management System
 
-The project includes the following core functionalities:
-• Load contact data from a file (.txt)
-(Each contact includes: name, phone number, and relationship such as family,
-friends, teachers, colleagues, etc.)
-• Display the contact list
-• Add a new contact
-o Validate duplicate phone numbers
-o Handle duplicate contact names
-• Search for contacts by name
-• Update contact information based on phone number
-• Delete a contact by name
-• Filter contacts by relationship category
+A simple Contact Management System written in **C++** using **Object-Oriented Programming (OOP)**.
+
+## 🚀 Features
+
+- Display contacts
+- Add new contact
+- Search by name
+- Search by phone number
+- Update contact
+- Delete contact
+- Filter by relationship
+- Sort contacts
+- Save/Load contacts from file
+
+---
+
+## 📦 Clone Project
+
+```bash
+git clone https://github.com/ptthong05/OOP-Phone-Contact-Management-Application.git
+cd ContactManagement
+```
+
+---
+
+## 🛠 Requirements
+
+- C++11 or later
+- GCC / G++ / MinGW
+- Visual Studio 2019/2022
+- Code::Blocks
+- VS Code + C/C++ Extension
+
+---
+
+## ▶️ Build & Run
+
+### Using g++
+
+```bash
+g++ main.cpp -o ContactManager
+```
+
+Run
+
+### Windows
+
+```bash
+ContactManager.exe
+```
+
+### Linux / macOS
+
+```bash
+./ContactManager
+```
+
+---
+
+### Using Visual Studio
+
+1. Open the project in Visual Studio.
+2. Build the project.
+
+```
+Ctrl + Shift + B
+```
+
+3. Run the project.
+
+```
+Ctrl + F5
+```
+
+---
+
+## 📁 Project Structure
+
+```
+ContactManagement/
+│── main.cpp
+│── Person.h
+│── Contact.h
+│── ContactManager.h
+│── TemplateList.h
+│── PhoneValidator.h
+│── FileHandler.h
+│── contacts.txt
+└── README.md
+```
+
+---
+
+## 📄 Input File
+
+Create a file named:
+
+```
+contacts.txt
+```
+
+The program will ask you to enter the file name when it starts.
+
+---ense
+
+This project is for educational purposes.
